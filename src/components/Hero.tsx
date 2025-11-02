@@ -19,22 +19,22 @@ const Hero = () => {
       <div className="container relative z-10 px-6 py-20">
         <div className="max-w-4xl mx-auto text-center text-primary-foreground animate-fade-in">
           <h1 className="font-heading text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Turning Business Challenges into{" "}
-            <span className="text-accent">Digital Solutions</span>
+            Connecting Insight with{" "}
+            <span className="text-accent">Innovation</span>
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto leading-relaxed">
-            I'm Balaji Asaithambi, a Business Analyst who bridges business goals with technology in the banking world. 
-            Passionate about optimizing processes, empowering teams, and delivering value-driven outcomes.
+            At AmberBridge, we bridge business strategy and digital transformation — empowering banks, 
+            enterprises, and online brands to thrive.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               size="lg"
               className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-8 py-6 text-lg group"
-              onClick={() => document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => document.getElementById('consulting')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              View My Work
+              Explore Consulting Services
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
             
@@ -42,10 +42,10 @@ const Hero = () => {
               size="lg"
               variant="outline"
               className="border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary font-semibold px-8 py-6 text-lg"
-              onClick={() => window.open('https://linkedin.com/in/balaji-asaithambi-215a0492', '_blank')}
+              onClick={() => document.getElementById('ecommerce')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              <Linkedin className="mr-2" size={20} />
-              Connect on LinkedIn
+              Visit the Store
+              <ArrowRight className="ml-2" size={20} />
             </Button>
           </div>
         </div>

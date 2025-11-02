@@ -41,10 +41,10 @@ const Connect = () => {
     <section className="py-24 bg-background">
       <div className="container px-6">
         <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mb-4 text-center">
-          Let's Connect
+          Let's Build Together
         </h2>
         <p className="text-center text-muted-foreground text-lg mb-16 max-w-2xl mx-auto">
-          Let's collaborate or talk ideas — I'd love to connect!
+          Have a project, idea, or collaboration in mind? Let's connect.
         </p>
         
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
@@ -152,11 +152,14 @@ const Connect = () => {
             
             <Card className="p-6 bg-gradient-primary text-primary-foreground">
               <h3 className="font-heading text-xl font-bold mb-3">
-                Open to Opportunities
+                Dubai, United Arab Emirates
               </h3>
+              <p className="text-primary-foreground/90 leading-relaxed mb-2">
+                📍 Based in Dubai, serving clients across the UAE and globally
+              </p>
               <p className="text-primary-foreground/90 leading-relaxed">
-                I'm always interested in discussing new projects, consulting opportunities, 
-                or just connecting with fellow professionals in the banking and technology space.
+                Whether you're looking for strategic consulting, digital transformation support, 
+                or e-commerce partnerships — we're here to help.
               </p>
             </Card>
           </div>
