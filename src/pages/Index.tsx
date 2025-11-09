@@ -7,6 +7,7 @@ import Values from "@/components/Values";
 import FounderNote from "@/components/FounderNote";
 import Connect from "@/components/Connect";
 import Footer from "@/components/Footer";
+import ChatWidget from "@/components/ChatWidget";
 
 const Index = () => {
   return (
@@ -20,6 +21,7 @@ const Index = () => {
       <FounderNote />
       <Connect />
       <Footer />
+      <ChatWidget />
     </main>
   );
 };
